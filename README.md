@@ -7,7 +7,7 @@ This repository contains the solutions for the Project for the Sata Representati
 The assignment concerns **Data Representation** using Python packages.
 
 # About the files:
-In this repository you can see all the information in a Jupyter Notebook file under the name of [Machine Learning.ipynb](https://github.com/Katylub/Machine-Learning-2020/blob/main/Machine%20Learning.ipynb) 
+In this repository you can see all the information...
 
 ## Installation
 1. Make sure you have MySql and Python installed to run the program
