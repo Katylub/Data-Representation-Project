@@ -23,6 +23,8 @@ class ClientDao:
     
         #print ("connection made")"""
 
+    
+
     def create(self, client):
         cursor = self.db.cursor()
         sql = "insert into clients (Names, Surname, Price) values (%s,%s,%s)"
@@ -35,6 +37,8 @@ class ClientDao:
         cursor.execute(sql, values)
         self.db.commit()
         return cursor.lastrowid
+ 
+        return lastRowId
 
     def getAll(self):
         cursor = self.db.cursor()
@@ -46,7 +50,7 @@ class ClientDao:
         for result in results:
             resultAsDict = self.convertToDict(result)
             returnArray.append(resultAsDict)
-
+       
         return returnArray
 
     def findById(self, ClientID):
@@ -55,6 +59,7 @@ class ClientDao:
         values = [ ClientID ]
         cursor.execute(sql, values)
         result = cursor.fetchone()
+        
         return self.convertToDict(result)
         
 
@@ -70,6 +75,7 @@ class ClientDao:
        ]
        cursor.execute(sql, values)
        self.db.commit()
+       
        return client
 
     def delete(self, ClientID):
