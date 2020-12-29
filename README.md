@@ -19,7 +19,7 @@ The database have a Primary Key called ClientID that have autoincremental option
 
 The database contain a table called "clients" that provide information of clients as names, surname and price. The main idea is to adapt to different business. 
 
-You can see the command to create the database [here.](https://github.com/Katylub/Data-Representation-Project/blob/main/create_database.py)  
+You can see the command to create the table [here.](https://github.com/Katylub/Data-Representation-Project/blob/main/createtable.py)  
 
 ## References
 To create this program was necessary to use: 
