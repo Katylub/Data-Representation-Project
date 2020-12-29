@@ -6,12 +6,12 @@ The <b> Web application project</b>, is a recopilation and adapted version of th
 ## Project
 In summary you will see:<br>
 
-	• A basic Flask server that has a <br>
+	• A basic Flask server that has a 
 
-	• REST API, (to perform CRUD operations)<br>
+	• REST API, (to perform CRUD operations)
 
-	• One database table and<br>
-	
+	• One database table and
+
 	• Accompanying web interface (HTTP: methods and status code and JSON: JavaScript Object Notation ), using AJAX calls (with JQuery), to perform these CRUD operations
 
 ## MySql Database
@@ -26,6 +26,6 @@ To create this program was necessary to use:
 1. Training Video and material provided during Data Representation course at GMIT
 2. Research 
 
-# Note 
+## Note 
 - Please note that the virtual environment and the data base configuration have been ignored.
 - The deployment to [PythonAnywhere](http://katylub.pythonanywhere.com/) and [Azure](https://gmitdatarep.azurewebsites.net), need additional MySql connection to the server. 
