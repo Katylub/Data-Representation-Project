@@ -1,29 +1,28 @@
 # About this repository:
-This repository contains the solutions for the Project for the Sata Representation module at GMIT
+This repository contains the solutions for the **Data Representation** Project at GMIT.
 
-The assignment concerns **Data Representation** using Python packages.
-This repository contains the solutions for the Data Representation Project at GMIT.
+The <b> Web application project</b>, is a recopilation and adapted version of the labs done during the course and was created to gather information of a customer; taking in consideration names, surname and Price. The database can be used to adapt other business according to the needs.
 
-# About the files:
-In this repository you can see all the information...
-The <b> Web application project</b>, is an adapted version of the project lab done by the lecturer during the course and was created to gather information of a customer; taking in consideration names, surname and Price. The database can be used to adapt other business according to the needs.
-
-## Installation
-1. Make sure you have MySql and Python installed to run the program
+## Project
 In summary you will see:
 	• A basic Flask server that has a <br>
 	• REST API, (to perform CRUD operations)<br>
 	• One database table and<br>
 	• Accompanying web interface (HTTP: methods and status code and JSON: JavaScript Object Notation ), using AJAX calls (with JQuery), to perform these CRUD operations
 
-## How to download and use this repository
-SQL Database
-It was added an auto incremental option in the database to make sure each customer have one ID and to control the information added and removed.  You can see the command to create the database [here](https://github.com/Katylub/Data-Representation-Project/blob/main/create_database.py)  
+## MySqlDatabase
+The database have a Primary Key called ClientID that have autoincremental option for faster speed while implemeting queries and data independence when searching on records. 
 
-In this project we ignore virtual environment and the data base configuration.
+The database contain a table called "clients" that provide information of clients as names, surname and price. The main idea is to adapt to different business. 
+
+You can see the command to create the database [here.](https://github.com/Katylub/Data-Representation-Project/blob/main/create_database.py)  
+
+In this project have been ignored in Github, virtual environment and the data base configuration.
 
 ## References
 To create this program was necessary to use: 
-1. Training Video and material provided during Machine Learning and Statistic course at GMIT
+1. Training Video and material provided during Data Representation course at GMIT
 2. Research 
-3. Web pages that are detailed in the notebook
+
+# Note 
+Deploy in [PythonAnywhere](http://katylub.pythonanywhere.com/) and [Azure](https://gmitdatarep.azurewebsites.net) - Need additional MySql connection to the server. 
