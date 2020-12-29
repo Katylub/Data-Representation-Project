@@ -5,9 +5,13 @@ The <b> Web application project</b>, is a recopilation and adapted version of th
 
 ## Project
 In summary you will see:<br>
+
 	• A basic Flask server that has a <br>
+
 	• REST API, (to perform CRUD operations)<br>
+
 	• One database table and<br>
+	
 	• Accompanying web interface (HTTP: methods and status code and JSON: JavaScript Object Notation ), using AJAX calls (with JQuery), to perform these CRUD operations
 
 ## MySql Database
